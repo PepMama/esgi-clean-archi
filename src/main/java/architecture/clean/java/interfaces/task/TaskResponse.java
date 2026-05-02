@@ -4,9 +4,9 @@ import architecture.clean.java.entities.task.Task;
 
 public class TaskResponse {
 
-    private String id;
-    private String title;
-    private boolean completed;
+    private final String id;
+    private final String title;
+    private final boolean completed;
 
     public TaskResponse(Task task) {
         this.id = task.getId();
